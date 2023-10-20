@@ -1,0 +1,22 @@
+@import './base.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  display: grid;
+  grid-template-areas: 'header header' 'aside main' 'aside footer';
+  grid-template-rows: 3.938rem 1fr 51px;
+  grid-template-columns: 4.063rem 1fr;
+
+  min-height: 100lvh;
+  color: var(--text-color);
+  background: var(--bg-color);
+  line-height: 1.6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

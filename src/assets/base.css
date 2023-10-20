@@ -1,0 +1,59 @@
+/* Color Palette */
+:root {
+  --white: #ffffff;
+
+  --neon-blue: #4436fd;
+  --blue-magenta: #7367f0;
+
+  --gray-primary: #6e6b7b;
+  --gray-primary-accent: #5e5873;
+
+  --gray-secondary: #f0f0f0;
+  --gray-secondary-accent: #f8f8f8;
+
+  --gray-tertiary: #eeeeee;
+  --gray-tertiary-accent: #888888;
+
+  --green: #28c76f;
+  --red: #ea5455;
+  --lime: #91cc75;
+
+  --divider: #dddddd;
+}
+
+/* Semantic Color Variables for this project */
+:root {
+  --text-color: var(--gray-primary);
+  --bg-color: var(--gray-secondary-accent);
+
+  --color-primary: var(--neon-blue);
+  --color-primary-soft: var(--blue-magenta);
+
+  --header-bg-color: var(--color-primary);
+  --header-text-color: var(--white);
+
+  --widget-bg-color: var(--white);
+  --widget-text-color: var(--gray-primary);
+
+  --activity-bg-color: var(--white);
+
+  --timeline-text-primary: var(--gray-primary-accent);
+  --timeline-text-secondary: var(--gray-primary);
+  --timeline-item-bg-color: var(--gray-secondary);
+
+  --aside-bg-color: var(--white);
+  --aside-text-color: var(--gray-primary);
+
+  --footer-text-color: var(--gray-tertiary-accent);
+  --footer-bg-color: var(--gray-tertiary);
+}
+
+/* Clean all tags */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  box-sizing: border-box;
+}
