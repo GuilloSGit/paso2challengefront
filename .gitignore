@@ -14,8 +14,8 @@ dist-ssr
 coverage
 *.local
 
-/cypress/videos/
-/cypress/screenshots/
+# NPMRC
+.npmrc
 
 # Editor directories and files
 .vscode/*
@@ -26,3 +26,7 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+
+# Cypress
+/cypress/videos/
+/cypress/screenshots/
