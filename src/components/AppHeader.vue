@@ -1,7 +1,7 @@
 <template>
   <header class="flex justify-between items-center py-5">
     <button>
-      <img src="../assets/icons/edmachinaBrand.svg" alt="EdMachina Logo" />
+      <img src="../assets/icons/edmachinaBrand.svg" alt="EdMachina Brand Logo" />
     </button>
     <EdMachinaIcon />
     <div class="flex justify-center items-center items-container">
@@ -21,8 +21,8 @@
 
       <div v-if="user" class="flex user-info">
         <div class="flex flex-col">
-          <span class="font-bold text-sm">{{ user?.name || 'User' }}</span>
-          <span class="text-xs font-bold text-right">{{ user?.role || 'Role' }}</span>
+          <span class="font-medium text-sm">{{ user?.name || 'User' }}</span>
+          <span class="text-xs font-medium text-right">{{ user?.role || 'Role' }}</span>
         </div>
         <div class="relative">
           <img class="user-avatar" height="39" width="39" :src="user?.avatar" alt="User Avatar" />
@@ -50,7 +50,7 @@
   }
 
   watch(fetchData, { immediate: true });
-  
+
 </script>
 
 <style scoped>

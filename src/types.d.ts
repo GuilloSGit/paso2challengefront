@@ -3,3 +3,7 @@ export type User = {
   role: string
   avatar: string
 }
+
+export type Career = {
+  
+}

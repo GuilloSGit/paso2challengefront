@@ -1,5 +1,5 @@
 import type { User } from '@/types'
-import user from '@/assets/data/user.json'
+import user from '@/assets/data/users.json'
 import userAvatarSVG from '@/assets/icons/userAvatar.svg'
 
 export const getUser = async (): Promise<User> => {

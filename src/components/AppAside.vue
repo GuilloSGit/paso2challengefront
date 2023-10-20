@@ -4,7 +4,7 @@
     <AsideItem title="Dashboard" :selected="true" :icon="homeSVG" />
 
     <img v-if="!asideStore.isExpanded" class="mt-9 mb-2" src='@/assets/icons/dots.svg' alt="Reports" />
-    <span v-else class="font-bold text-xs w-full pl-3 mt-8 mb-2 text-gray-400">REPORTS</span>
+    <span v-else class="font-medium text-xs w-full pl-3 mt-8 mb-2 text-gray-400">REPORTS</span>
 
     <div class="flex flex-col justify-CENTER items-center buttons-container">
       <AsideItem title="Smart Enroller" :isBold="true" :icon="plusBoxSVG" />

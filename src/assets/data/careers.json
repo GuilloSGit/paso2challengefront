@@ -1,0 +1,16 @@
+[
+    {
+        "career_id": "0398P",
+        "careerName": "Software Engineer",
+        "type": "Graduate",
+        "modality": "On-Campus",
+        "status": "Enrollment"
+    },
+    {
+        "career_id": "1276C",
+        "careerName": "Data Science",
+        "type": "Graduate",
+        "modality": "Online",
+        "status": "In Progress"
+    }
+]

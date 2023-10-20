@@ -1,0 +1,58 @@
+{
+    "AYSI32392": {
+        "personalInfo": {
+            "firstName": "Danielle",
+            "lastName": "Munchen Shollengberg",
+            "email": "danielle_munchen@gmail.com",
+            "phone": "+52 5522126164",
+            "country": "México",
+            "state": "Córdoba"
+        },
+        "scholarInfo": {
+            "career_student_id": "AYSI0123839",
+            "category": "Do Not Contact",
+            "status": "Active",
+            "period": "2023-1",
+            "cohort": "A1 2023",
+            "CurrentStatus": "Alumno Regular",
+            "school":"Aldebaran",
+            "admissionMode":"Centro Pre",
+            "segment": "Sin Información",
+            "segmentDetail":"Sin Información",
+            "incomeRiskDetail":{
+                "subjects": {
+                    "Matemática": {
+                        "risk": "Riesgo Sin Definir",
+                        "details": "(Nota: Sin Información)"
+                    },
+                    "Química": {
+                        "risk": "Riesgo Sin Definir",
+                        "details": "(Nota: Sin Información)"
+                    },
+                    "Programación": {
+                        "risk": "Riesgo Sin Definir",
+                        "details": "(Nota: Sin Información)"
+                    },
+                    "Comunicación": {
+                        "risk": "Riesgo Sin Definir",
+                        "details": "(Nota: Sin Información)"
+                    }
+                }
+            }
+        },
+        "personalLogs": {
+            "recordAge": {
+                "creationDate": "2023-01-02",
+                "record": 12
+            },
+            "lastContact": {
+                "lastContactDate": "2023-11-29",
+                "lastContactTime": "2:43pm"
+            },
+            "lastActivity": {
+                "lastContactDate": "2023-11-29",
+                "lastContactTime": "2:43pm"
+            }
+        }
+    }
+}
