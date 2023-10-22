@@ -14,7 +14,7 @@
             "status": "Active",
             "period": "2023-1",
             "cohort": "A1 2023",
-            "CurrentStatus": "Alumno Regular",
+            "currentStatus": "Alumno Regular",
             "school":"Aldebaran",
             "admissionMode":"Centro Pre",
             "segment": "Sin Información",
